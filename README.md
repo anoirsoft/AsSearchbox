@@ -24,7 +24,7 @@ or
   AsSearchBox1.AddSearchItem('City'); 
 ```
 
-- **Input Case sensitive.**
+- **Enable/Disable Input Case sensitive.**
 - **Navigate dataset with VK_UP/Vk_DOWN**
 - **Custom Input value**
 - **Logical Operators ("and"/"or") between SearchItems.**

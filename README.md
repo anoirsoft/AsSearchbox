@@ -42,7 +42,7 @@ or
 
 # Setup
 
-**How to install :**
+###### **How to install :**
 
 1- Copy files in safe folder
 
@@ -52,7 +52,7 @@ then add folder path of `Source` in Library path
         `  Tools>Library ... `
 
 
-**How to use it :**
+###### **How to use it :**
 
 1- Add `TAsSearchBox` in your form/application .
 

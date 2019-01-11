@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{7669424A-6273-4858-8ADC-1CAF95492B90}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Packages\AsSearchBox.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Packages\AsSearchBoxDsgn.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AsSearchBox">
+        <MSBuild Projects="Packages\AsSearchBox.dproj"/>
+    </Target>
+    <Target Name="AsSearchBox:Clean">
+        <MSBuild Projects="Packages\AsSearchBox.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AsSearchBox:Make">
+        <MSBuild Projects="Packages\AsSearchBox.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AsSearchBoxDsgn">
+        <MSBuild Projects="Packages\AsSearchBoxDsgn.dproj"/>
+    </Target>
+    <Target Name="AsSearchBoxDsgn:Clean">
+        <MSBuild Projects="Packages\AsSearchBoxDsgn.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AsSearchBoxDsgn:Make">
+        <MSBuild Projects="Packages\AsSearchBoxDsgn.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AsSearchBox;AsSearchBoxDsgn"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AsSearchBox:Clean;AsSearchBoxDsgn:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AsSearchBox:Make;AsSearchBoxDsgn:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

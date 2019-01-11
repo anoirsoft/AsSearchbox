@@ -1,7 +1,7 @@
 # [AsSearchBox] Search in database without coding 
 A simple component to facilitate the search/filter in any TDataset ( Table or Query ) using Filter property . 
   
-
+![](https://1.bp.blogspot.com/-5ORXrtBUFpw/XDgqM3tLDOI/AAAAAAAAAgM/lcuOsCpYop4iJPKZXbH5JqsUQxB35aEmgCLcBGAs/s1600/AsSearchBoxPreview.gif)
 
 
 **How to install :**

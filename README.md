@@ -24,7 +24,6 @@ or
 - **Input Case sensitive.**
 - **Navigate dataset with VK_UP/Vk_DOWN**
 - **Custom Input value**
-- **Custom Input.**
 - **Logical Operators ("and"/"or") between SearchItems.**
 - **Relational Operators.**
 

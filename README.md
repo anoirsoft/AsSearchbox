@@ -4,6 +4,9 @@ A simple component to facilitate the search/filter in any TDataset ( Table or Qu
 ![](https://1.bp.blogspot.com/-5ORXrtBUFpw/XDgqM3tLDOI/AAAAAAAAAgM/lcuOsCpYop4iJPKZXbH5JqsUQxB35aEmgCLcBGAs/s1600/AsSearchBoxPreview.gif)
 
 
+
+![](https://3.bp.blogspot.com/-RdrPG-ChYpY/XDgvxIQJMLI/AAAAAAAAAgk/nAz6ZqpoBNIkiRVP5v1uIpZkhG8-S8X4wCLcBGAs/s1600/howtouse.gif)
+
 # Features 
 - **Easy to use.**
 - **Coloring by case.**

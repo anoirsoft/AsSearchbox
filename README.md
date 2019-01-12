@@ -43,7 +43,8 @@ or
       
 
 # Setup
-You can watch the video on [Youtube](https://www.youtube.com/watch?v=LElkT1-9Qzc). 
+You can watch the video on YouTube
+   - [How to Install #AsSearchBox Component in #Delphi](https://www.youtube.com/watch?v=LElkT1-9Qzc). 
 ## How to install :
 
 1- Copy files in safe folder

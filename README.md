@@ -43,7 +43,7 @@ or
       
 
 # Setup
-
+You can watch the video on [Youtube](https://www.youtube.com/watch?v=LElkT1-9Qzc). 
 ## How to install :
 
 1- Copy files in safe folder
@@ -56,7 +56,7 @@ then add folder path of `Source` in Library path
 
 ## How to use it :
 
-You can watch the video on [Youtube](https://www.youtube.com/watch?v=LElkT1-9Qzc). 
+
 
 
 1- Add `TAsSearchBox` in your form/application .

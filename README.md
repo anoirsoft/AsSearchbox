@@ -24,7 +24,7 @@ or
   AsSearchBox1.AddSearchItem('City'); 
 ```
 
-- **Enable/Disable Input Case sensitive.**
+- **Enable/Disable  CaseSensitive.**
 - **Navigate dataset with VK_UP/Vk_DOWN**
 - **Custom Input value**
 - **Logical Operators ("and"/"or") between SearchItems.**
@@ -56,6 +56,9 @@ then add folder path of `Source` in Library path
 
 ## How to use it :
 
+You can watch the video on [Youtube](https://www.youtube.com/watch?v=LElkT1-9Qzc). 
+
+
 1- Add `TAsSearchBox` in your form/application .
 
 2- Assign SearchDataSet with your dataset (TTable, TQuery...) , 
@@ -69,7 +72,7 @@ then add folder path of `Source` in Library path
 3- Execute , Good luck ! 
 
 ## Thank you 
-Don't forget to  :star:  if you like it 
+Please ! Don't forget to  :star:  if you like it 
 # 
   
   

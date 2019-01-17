@@ -8,6 +8,11 @@ A simple component to facilitate the search/filter in any TDataset ( Table or Qu
 ![](https://3.bp.blogspot.com/-RdrPG-ChYpY/XDgvxIQJMLI/AAAAAAAAAgk/nAz6ZqpoBNIkiRVP5v1uIpZkhG8-S8X4wCLcBGAs/s1600/howtouse.gif)
 
 # Features 
+
+```diff
+- Auto load fields feature has been removed temporarily 
+```
+
 - **Easy to use.**
 - **Coloring by case.**
 - **Enable/Disable SearchItem/Field.**

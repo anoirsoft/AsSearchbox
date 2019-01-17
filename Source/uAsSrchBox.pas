@@ -372,7 +372,7 @@ var
   ASearchItem: TSearchItem;
 begin
   FdataSet := Value;
-
+  {
   if not(Assigned(Value)) then
     Exit;
 
@@ -404,8 +404,8 @@ begin
       end;
     end;
 
-  end;
-
+end; 
+}
 end;
 
 { TSearchItems }

@@ -367,9 +367,9 @@ begin
 end;
 
 procedure TAsSearchBox.Setdataset(const Value: TDataSet);
-var
-  i: Integer;
-  ASearchItem: TSearchItem;
+//var
+ // i: Integer;
+ // ASearchItem: TSearchItem;
 begin
   FdataSet := Value;
   {

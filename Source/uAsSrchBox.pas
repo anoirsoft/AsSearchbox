@@ -225,11 +225,19 @@ begin
 end;
 
 destructor TAsSearchBox.Destroy;
+var
+  I: Integer;
 begin
-
   inherited;
-  FsearchOptions.Free;
 
+for I := 0 to Pred(FSrchFldList.Count) do
+    begin
+       FSrchFldList.Items[i].Free;
+       FSrchFldList.Items[i] := nil ;
+    end;
+
+  FreeAndNil(FSrchFldList);
+  FreeAndNil(FsearchOptions);
 end;
 
 function TAsSearchBox.GetFilterItem(AField: String;

@@ -230,12 +230,6 @@ var
 begin
   inherited;
 
-for I := 0 to Pred(FSrchFldList.Count) do
-    begin
-       FSrchFldList.Items[i].Free;
-       FSrchFldList.Items[i] := nil ;
-    end;
-
   FreeAndNil(FSrchFldList);
   FreeAndNil(FsearchOptions);
 end;

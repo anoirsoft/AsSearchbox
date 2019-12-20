@@ -28,6 +28,10 @@ type
     ClientDataSet1TaxRate: TFloatField;
     ClientDataSet1Contact: TStringField;
     ClientDataSet1LastInvoiceDate: TDateTimeField;
+    AsSearchBox2: TAsSearchBox;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }

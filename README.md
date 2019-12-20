@@ -13,10 +13,10 @@ A simple component to facilitate the search/filter in any TDataset ( Table or Qu
 - **Coloring by case.**
 - **Enable/Disable SearchItem/Field.**
 - **Enable/Disable Search.**
-- **PredFilter (Custom filter)** 
+- :new:  **PredFilter (Custom filter)** 
   To add a custom filter before the generated search filter for example :  
     PredFilter = Country='US' This shows the search results only when country is US.    
-- **Retrieve Fields from the selected DataSet**   
+- :new:  **Retrieve Fields from the selected DataSet** (Just right click to Retrieve All Fields)  
 - **ADD SearchItem dynamically.**
  
  For example :

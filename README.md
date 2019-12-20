@@ -5,7 +5,7 @@ A simple component to facilitate the search/filter in any TDataset ( Table or Qu
 
 
 
-![](https://3.bp.blogspot.com/-RdrPG-ChYpY/XDgvxIQJMLI/AAAAAAAAAgk/nAz6ZqpoBNIkiRVP5v1uIpZkhG8-S8X4wCLcBGAs/s1600/howtouse.gif)
+![](https://1.bp.blogspot.com/-M1c_gmcWapw/XfxA2oqWQkI/AAAAAAAAApw/rNCtWy3oLjc2quIBhyw1275n4mwWY8a8gCEwYBhgL/s1600/assearchbox.gif)
 
 # Features 
 

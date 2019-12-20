@@ -1,5 +1,5 @@
 # [AsSearchBox] Search in database without coding in Delphi
-A simple component to facilitate the search/filter in any TDataset ( Table or Query ) using Filter property . 
+A small component to make the search/filter easy in any TDataset  ( Table or Query ) using Filter property . 
   
 
 ![](https://1.bp.blogspot.com/-M1c_gmcWapw/XfxA2oqWQkI/AAAAAAAAApw/rNCtWy3oLjc2quIBhyw1275n4mwWY8a8gCEwYBhgL/s1600/assearchbox.gif)

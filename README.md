@@ -9,14 +9,14 @@ A simple component to facilitate the search/filter in any TDataset ( Table or Qu
 
 # Features 
 
-```diff
-- Auto load fields feature has been removed temporarily 
-```
-
 - **Easy to use.**
 - **Coloring by case.**
 - **Enable/Disable SearchItem/Field.**
 - **Enable/Disable Search.**
+- **PredFilter (Custom filter)** 
+  To add a custom filter before the generated search filter for example :  
+    PredFilter = Country='US' This shows the search results only when country is US.    
+- **Retrieve Fields from the selected DataSet**   
 - **ADD SearchItem dynamically.**
  
  For example :

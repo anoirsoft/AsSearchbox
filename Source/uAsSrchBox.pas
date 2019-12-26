@@ -11,8 +11,13 @@ unit uAsSrchBox;
 interface
 
 uses
+  {$IF CompilerVersion > 28} //Delphi XE7
   System.SysUtils, System.Classes, Vcl.Controls, Vcl.StdCtrls, DB,
   Vcl.Dialogs, System.UITypes;
+  {$ELSE}
+  SysUtils, Classes, Windows, Controls, StdCtrls, DB, Dialogs, Types, Graphics;
+  {$IFEND}
+    
 
 type
   TLogicalOperators = (loAND, loOR);
